@@ -2,6 +2,8 @@
 #include <string>
 using namespace std;
 
+
+
 int main()
 {
     int gameboard[3][3];
@@ -12,6 +14,8 @@ int main()
     int player1score = 0;
     int player2score = 0;
     int emptySpaces = 9;
+
+// pls stop taking board inputs from user 
 
     cout << "Enter 9 elements in the game board (1-9): ";
     cout << endl;
